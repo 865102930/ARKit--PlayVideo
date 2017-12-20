@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25981FD31FEAACC000EFAA2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25981FD21FEAACC000EFAA2C /* AppDelegate.swift */; };
+		25981FD51FEAACC000EFAA2C /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 25981FD41FEAACC000EFAA2C /* art.scnassets */; };
+		25981FD71FEAACC000EFAA2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25981FD61FEAACC000EFAA2C /* ViewController.swift */; };
+		25981FDA1FEAACC000EFAA2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25981FD81FEAACC000EFAA2C /* Main.storyboard */; };
+		25981FDC1FEAACC000EFAA2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25981FDB1FEAACC000EFAA2C /* Assets.xcassets */; };
+		25981FDF1FEAACC000EFAA2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25981FDD1FEAACC000EFAA2C /* LaunchScreen.storyboard */; };
+		25981FEA1FEAACC000EFAA2C /* AR______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25981FE91FEAACC000EFAA2C /* AR______Tests.swift */; };
+		25981FF51FEAACC000EFAA2C /* AR______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25981FF41FEAACC000EFAA2C /* AR______UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25981FE61FEAACC000EFAA2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25981FC71FEAACBF00EFAA2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25981FCE1FEAACC000EFAA2C;
+			remoteInfo = "AR--加载视频";
+		};
+		25981FF11FEAACC000EFAA2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25981FC71FEAACBF00EFAA2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25981FCE1FEAACC000EFAA2C;
+			remoteInfo = "AR--加载视频";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25981FCF1FEAACC000EFAA2C /* AR--加载视频.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR--加载视频.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25981FD21FEAACC000EFAA2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25981FD41FEAACC000EFAA2C /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		25981FD61FEAACC000EFAA2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		25981FD91FEAACC000EFAA2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25981FDB1FEAACC000EFAA2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25981FDE1FEAACC000EFAA2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25981FE01FEAACC000EFAA2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25981FE51FEAACC000EFAA2C /* AR--加载视频Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR--加载视频Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25981FE91FEAACC000EFAA2C /* AR______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AR______Tests.swift"; sourceTree = "<group>"; };
+		25981FEB1FEAACC000EFAA2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25981FF01FEAACC000EFAA2C /* AR--加载视频UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR--加载视频UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25981FF41FEAACC000EFAA2C /* AR______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AR______UITests.swift"; sourceTree = "<group>"; };
+		25981FF61FEAACC000EFAA2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25981FCC1FEAACC000EFAA2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25981FE21FEAACC000EFAA2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25981FED1FEAACC000EFAA2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25981FC61FEAACBF00EFAA2C = {
+			isa = PBXGroup;
+			children = (
+				25981FD11FEAACC000EFAA2C /* AR--加载视频 */,
+				25981FE81FEAACC000EFAA2C /* AR--加载视频Tests */,
+				25981FF31FEAACC000EFAA2C /* AR--加载视频UITests */,
+				25981FD01FEAACC000EFAA2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25981FD01FEAACC000EFAA2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25981FCF1FEAACC000EFAA2C /* AR--加载视频.app */,
+				25981FE51FEAACC000EFAA2C /* AR--加载视频Tests.xctest */,
+				25981FF01FEAACC000EFAA2C /* AR--加载视频UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25981FD11FEAACC000EFAA2C /* AR--加载视频 */ = {
+			isa = PBXGroup;
+			children = (
+				25981FD21FEAACC000EFAA2C /* AppDelegate.swift */,
+				25981FD41FEAACC000EFAA2C /* art.scnassets */,
+				25981FD61FEAACC000EFAA2C /* ViewController.swift */,
+				25981FD81FEAACC000EFAA2C /* Main.storyboard */,
+				25981FDB1FEAACC000EFAA2C /* Assets.xcassets */,
+				25981FDD1FEAACC000EFAA2C /* LaunchScreen.storyboard */,
+				25981FE01FEAACC000EFAA2C /* Info.plist */,
+			);
+			path = "AR--加载视频";
+			sourceTree = "<group>";
+		};
+		25981FE81FEAACC000EFAA2C /* AR--加载视频Tests */ = {
+			isa = PBXGroup;
+			children = (
+				25981FE91FEAACC000EFAA2C /* AR______Tests.swift */,
+				25981FEB1FEAACC000EFAA2C /* Info.plist */,
+			);
+			path = "AR--加载视频Tests";
+			sourceTree = "<group>";
+		};
+		25981FF31FEAACC000EFAA2C /* AR--加载视频UITests */ = {
+			isa = PBXGroup;
+			children = (
+				25981FF41FEAACC000EFAA2C /* AR______UITests.swift */,
+				25981FF61FEAACC000EFAA2C /* Info.plist */,
+			);
+			path = "AR--加载视频UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25981FCE1FEAACC000EFAA2C /* AR--加载视频 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25981FF91FEAACC000EFAA2C /* Build configuration list for PBXNativeTarget "AR--加载视频" */;
+			buildPhases = (
+				25981FCB1FEAACC000EFAA2C /* Sources */,
+				25981FCC1FEAACC000EFAA2C /* Frameworks */,
+				25981FCD1FEAACC000EFAA2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AR--加载视频";
+			productName = "AR--加载视频";
+			productReference = 25981FCF1FEAACC000EFAA2C /* AR--加载视频.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25981FE41FEAACC000EFAA2C /* AR--加载视频Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25981FFC1FEAACC000EFAA2C /* Build configuration list for PBXNativeTarget "AR--加载视频Tests" */;
+			buildPhases = (
+				25981FE11FEAACC000EFAA2C /* Sources */,
+				25981FE21FEAACC000EFAA2C /* Frameworks */,
+				25981FE31FEAACC000EFAA2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25981FE71FEAACC000EFAA2C /* PBXTargetDependency */,
+			);
+			name = "AR--加载视频Tests";
+			productName = "AR--加载视频Tests";
+			productReference = 25981FE51FEAACC000EFAA2C /* AR--加载视频Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25981FEF1FEAACC000EFAA2C /* AR--加载视频UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25981FFF1FEAACC000EFAA2C /* Build configuration list for PBXNativeTarget "AR--加载视频UITests" */;
+			buildPhases = (
+				25981FEC1FEAACC000EFAA2C /* Sources */,
+				25981FED1FEAACC000EFAA2C /* Frameworks */,
+				25981FEE1FEAACC000EFAA2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25981FF21FEAACC000EFAA2C /* PBXTargetDependency */,
+			);
+			name = "AR--加载视频UITests";
+			productName = "AR--加载视频UITests";
+			productReference = 25981FF01FEAACC000EFAA2C /* AR--加载视频UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25981FC71FEAACBF00EFAA2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = gz;
+				TargetAttributes = {
+					25981FCE1FEAACC000EFAA2C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					25981FE41FEAACC000EFAA2C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 25981FCE1FEAACC000EFAA2C;
+					};
+					25981FEF1FEAACC000EFAA2C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 25981FCE1FEAACC000EFAA2C;
+					};
+				};
+			};
+			buildConfigurationList = 25981FCA1FEAACBF00EFAA2C /* Build configuration list for PBXProject "AR--加载视频" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25981FC61FEAACBF00EFAA2C;
+			productRefGroup = 25981FD01FEAACC000EFAA2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25981FCE1FEAACC000EFAA2C /* AR--加载视频 */,
+				25981FE41FEAACC000EFAA2C /* AR--加载视频Tests */,
+				25981FEF1FEAACC000EFAA2C /* AR--加载视频UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25981FCD1FEAACC000EFAA2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25981FD51FEAACC000EFAA2C /* art.scnassets in Resources */,
+				25981FDF1FEAACC000EFAA2C /* LaunchScreen.storyboard in Resources */,
+				25981FDC1FEAACC000EFAA2C /* Assets.xcassets in Resources */,
+				25981FDA1FEAACC000EFAA2C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25981FE31FEAACC000EFAA2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25981FEE1FEAACC000EFAA2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25981FCB1FEAACC000EFAA2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25981FD71FEAACC000EFAA2C /* ViewController.swift in Sources */,
+				25981FD31FEAACC000EFAA2C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25981FE11FEAACC000EFAA2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25981FEA1FEAACC000EFAA2C /* AR______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25981FEC1FEAACC000EFAA2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25981FF51FEAACC000EFAA2C /* AR______UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25981FE71FEAACC000EFAA2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25981FCE1FEAACC000EFAA2C /* AR--加载视频 */;
+			targetProxy = 25981FE61FEAACC000EFAA2C /* PBXContainerItemProxy */;
+		};
+		25981FF21FEAACC000EFAA2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25981FCE1FEAACC000EFAA2C /* AR--加载视频 */;
+			targetProxy = 25981FF11FEAACC000EFAA2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25981FD81FEAACC000EFAA2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25981FD91FEAACC000EFAA2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25981FDD1FEAACC000EFAA2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25981FDE1FEAACC000EFAA2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25981FF71FEAACC000EFAA2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25981FF81FEAACC000EFAA2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25981FFA1FEAACC000EFAA2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4GPDLP6DKN;
+				INFOPLIST_FILE = "AR--加载视频/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zkkeji.www.AR------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25981FFB1FEAACC000EFAA2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4GPDLP6DKN;
+				INFOPLIST_FILE = "AR--加载视频/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zkkeji.www.AR------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		25981FFD1FEAACC000EFAA2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4GPDLP6DKN;
+				INFOPLIST_FILE = "AR--加载视频Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zkkeji.www.AR------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR--加载视频.app/AR--加载视频";
+			};
+			name = Debug;
+		};
+		25981FFE1FEAACC000EFAA2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4GPDLP6DKN;
+				INFOPLIST_FILE = "AR--加载视频Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zkkeji.www.AR------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR--加载视频.app/AR--加载视频";
+			};
+			name = Release;
+		};
+		259820001FEAACC000EFAA2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4GPDLP6DKN;
+				INFOPLIST_FILE = "AR--加载视频UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zkkeji.www.AR------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AR--加载视频";
+			};
+			name = Debug;
+		};
+		259820011FEAACC000EFAA2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4GPDLP6DKN;
+				INFOPLIST_FILE = "AR--加载视频UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zkkeji.www.AR------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AR--加载视频";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25981FCA1FEAACBF00EFAA2C /* Build configuration list for PBXProject "AR--加载视频" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25981FF71FEAACC000EFAA2C /* Debug */,
+				25981FF81FEAACC000EFAA2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25981FF91FEAACC000EFAA2C /* Build configuration list for PBXNativeTarget "AR--加载视频" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25981FFA1FEAACC000EFAA2C /* Debug */,
+				25981FFB1FEAACC000EFAA2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25981FFC1FEAACC000EFAA2C /* Build configuration list for PBXNativeTarget "AR--加载视频Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25981FFD1FEAACC000EFAA2C /* Debug */,
+				25981FFE1FEAACC000EFAA2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25981FFF1FEAACC000EFAA2C /* Build configuration list for PBXNativeTarget "AR--加载视频UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259820001FEAACC000EFAA2C /* Debug */,
+				259820011FEAACC000EFAA2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25981FC71FEAACBF00EFAA2C /* Project object */;
+}
