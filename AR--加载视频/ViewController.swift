@@ -8,6 +8,7 @@
 
 import UIKit
 import SceneKit
+import SpriteKit
 import ARKit
 
 class ViewController: UIViewController, ARSCNViewDelegate {
@@ -23,11 +24,39 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // Show statistics such as fps and timing information
         sceneView.showsStatistics = true
         
-        // Create a new scene
-        let scene = SCNScene(named: "art.scnassets/ship.scn")!
+        let scene = SCNScene.init()
         
-        // Set the scene to the view
-        sceneView.scene = scene
+        // 创建节点
+        let planeNode = SCNNode()
+        // 创建模型(plane平面模型)
+        let plane = SCNPlane(width: 16, height: 9)
+        // 把模型添加到节点上
+        planeNode.geometry = plane;
+        // 是否支持双面
+        planeNode.geometry?.firstMaterial?.isDoubleSided = false
+        // 节点的位置
+        planeNode.position = SCNVector3Make(0, 0, -30);
+        // 把节点添加到根节点上
+        scene.rootNode.addChildNode(planeNode);
+        
+        // 创建video节点
+        let videoNode = SKVideoNode.init(url: URL.init(string: "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4")!)
+        // video节点的大小
+        videoNode.size = CGSize(width: 1600, height: 900)
+        // video节点的位置
+        videoNode.position = CGPoint(x: videoNode.size.width/2, y: videoNode.size.height/2)
+        // 不加这一句加载出来的界面是反的(可以尝试一下)
+        videoNode.zRotation = CGFloat.init(Double.pi)
+        let skScene = SKScene()
+        skScene.addChild(videoNode)
+        skScene.size = videoNode.size
+        
+        plane.firstMaterial?.diffuse.contents = skScene
+        // 播放
+        videoNode.play()
+        
+        sceneView.allowsCameraControl = true
+        sceneView.scene = scene;
     }
     
     override func viewWillAppear(_ animated: Bool) {
